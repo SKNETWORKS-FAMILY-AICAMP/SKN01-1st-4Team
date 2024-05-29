@@ -30,7 +30,7 @@
 <br>
 
 - 수업시간에 학습한 데이터 수집 방법(웹 크롤링, OpenAPI, 파일데이터)과 페이지 제작(streamlit), 함수 모듈화을 활용
-- 추가적으로 **kelper gl 시각화, geojson 데이터 변환, streamlit 캐싱, 웹 스크래핑 스크롤 컨트롤**를 학습하여 적용
+- 추가적으로 **kelper gl 시각화, geojson 데이터 변환, streamlit 캐싱, 웹 스크래핑 스크롤 컨트롤**을 학습하여 적용
 
 <br>
 
