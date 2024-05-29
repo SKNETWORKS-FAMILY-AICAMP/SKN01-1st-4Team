@@ -24,7 +24,7 @@
 <br>
 
 ### 사용 기술스택
-| 데이터 수집 | DB설계 | 페이지 제작 |
+| 데이터 수집 및 핸들링 | DB설계 | 페이지 제작 |
 |-------------|--------|-------------|
 | ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge&logo=beautifulsoup&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![requests](https://img.shields.io/badge/requests-3776AB?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![folium](https://img.shields.io/badge/folium-77B829?style=for-the-badge&logo=folium&logoColor=white) ![keplergl](https://img.shields.io/badge/keplergl-1ABC9C?style=for-the-badge&logo=python&logoColor=white) |
 
