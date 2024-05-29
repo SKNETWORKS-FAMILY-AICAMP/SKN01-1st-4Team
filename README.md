@@ -1,31 +1,38 @@
 # SKN01-1st-4Team
 ### Contributors
 **팀장** : 김지민 <br>
-**팀원** : 이용휘 이경민 이근 박윤서
+**팀원** : 이용휘 이경민 이근 박윤서 <br>
+**역할** : ① 데이터 수집 ② DB 설계 ③ Streamlit 제작
 
-- 주제 정한 이유??
-    1. 수업시간에 이용한 데이터(공공데이터포털)를 토대로 전국의 자동차 현황을 검색중에 현재 전세계에서 이목을 집중하는 전기차에 관심을 갖고 관련 데이터 수집
-        1. 전 세계가 주목하는 환경문제, 저희 조도 함께 주목하고 있었는데요 전국 자동차 현황 데이터를 분석하던 중 저희는 전기차에 주목을 하기로 했습니다.
-        2. FAQ조회 시스템은 SK네트웍스의 사업 중 하나인 SK일렉링크의 FAQ를 선택했습니다.
-    2. 전국 전기차 현황 - 전기차가 늘고 있는 추세다
-        1. 먼저 전국 전기차 현황을 보겠습니다.
-        2. 이 데이터는 국토교통 통계누리에 올라와 있는 전국 자동차 등록 현황 데이터를 이용하였습니다.
-        3. 2021년부터 2024년의 전기차 등록 추이인데 확실히 전기차를 이용하는 사람이 늘어난 것을 볼 수 있습니다.
-        4. 그러나 휘발유나 경유와 같은 화석연료를 사용하는 차에 비해 확연히 적은 수인 것을 알 수 있습니다.
-    3. 전국 충전소 현황
-        1. 그 이유를 전국 충전소 현황에서 찾을 수 있었습니다.
-        2. 지도를 보시면 굉장히 충전소가 많아보이지만 세세하게 보면 아파트 단지 안에 충전소가 있어서 이용가능한 충전소가 많지 않은 것을 알 수 있습니다.
-        3. 또 이 지도에는 나오지 않지만 아파트 내에 있는 충전기의 수도 한정되어 있어 전기차 이용자가 불편함을 겪는 상황입니다.
-        4. 이러한 전기차 이용자들의 불편함에 포커스를 맞춰 SK일렉링크는 충전기 설치 운용과 위탁가맹 및 로밍제휴사의 충전소를 편리하게 이용할 수 있는 전기차 충전 서비스            를 제공하고 있습니다.
-    4. FAQ
-        1. SK일렉링크의 FAQ를 BeautifulSoup과 Selenium을 활용하여 크롤링하였고
-        2. SK일렉링크 홈페이지 내부의 자료들도 함께 크롤링하여 FAQ방식으로 저희가 직접 만들어 자사 제품이 어떤 것이 있고 어떤 특징이 있는지 나타내었습니다.
-        3. 타자효과 split과 time.sleep을 사용하여 타자효과를 주었습니다.
-    
-- 
-- 팀원 간 업무 분담
-    - -데이터수집(open api, 크롤링)
-    -DB(DB설계, ORM)
-    -Streamlit(페이지 제작)
-    - 크게는 3가지로 나눴으나 각자 역할에 따라 유동적으로 실시함
-- 테이블 갯수 11개
+<br>
+
+### 주제
+- 전기차 및 충전소 현황과 SK 일렉링크 FAQ 조회 시스템 개발
+
+<br>
+
+### 주제 선정 이유
+- 급변하는 환경 변화에 전 세계가 환경문제에 신경을 쓰고 있으며, 모빌리티 업계에서도 이를 주목하고 있음
+- SK네트웍스의 사업 중 하나인 SK 일렉링크는 전기차 충전기 구축 및 충전 서비스를 제공하고 있으며, 프로젝트 주제의 의미를 잘 담은 기업이라 판단하여 해당 기업의 FAQ 조회시스템을 개발 시나리오로 설정
+- 수업시간에 이용한 데이터 수집 방법을(웹 크롤링, OpenAPI, 파일데이터)
+
+<br>
+
+### 사용 기술스택
+| 데이터 수집 | DB설계 | 페이지 제작 |
+|-------------|--------|-------------|
+| ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge&logo=beautifulsoup&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![requests](https://img.shields.io/badge/requests-3776AB?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-000000?style=for-the-badge&logo=python&logoColor=white) | ![streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![folium](https://img.shields.io/badge/folium-77B829?style=for-the-badge&logo=python&logoColor=white) ![keplergl](https://img.shields.io/badge/keplergl-1ABC9C?style=for-the-badge&logo=python&logoColor=white) |
+
+<br>
+
+### 데이터
+**수집**
+- OpenAPI :
+- 웹 스크래핑 :
+- 파일데이터:
+
+<br>
+
+**ERD**
+- 테이블 개수 : 11개
+
